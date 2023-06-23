@@ -1,0 +1,11 @@
+Pre-read
+
+Hello. We are glad to see you here. We are sorry for making you open this file but we felt that the program was already too big and any explanation in-program wouldn't help as it'd be quite hard to understand.
+
+Which is why made this file - to aid everyone looking for magnet reconstruction algorithms or simply trying to understand the program. We are once again apologizing for the inconvenience.
+
+#######################################################################################
+
+Let's start with the explanations now.
+
+1. 
