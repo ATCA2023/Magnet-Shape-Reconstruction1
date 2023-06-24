@@ -6,6 +6,9 @@ understand.
 Which is why we made this file - to aid everyone looking for magnet reconstruction algorithms or simply trying to understand the program. We are once again apologizing for the
 inconvenience.
 
+Also, this document was indented for better GitHub view so if it looks weird, try resizing (maximize the tab) the text viewer or simply read it at:
+https://github.com/ATCA2023/Magnet-Shape-Reconstruction1/blob/main/READ%20ME%20-%20a%20concise%20explanation%20of%20the%20algorithms%20created%20and%20used.txt
+
 Let's start with the explanations now.
 #######################################################################################
 
