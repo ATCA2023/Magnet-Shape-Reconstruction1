@@ -50,7 +50,8 @@ bumping the surface, we predefined a linear equation for each dipole: A linear e
 
 and the other one being the magnet's center in 0 0 0 (For enough dipoles, this method should provide very good approximations) and started adding the dipoles
 towards or away from the center of the magnet guess. The distance we are adding the new dipoles is going to be calculated using a variable called scale. 
-The bigger the scale, the faster the program will be but less accurate. Too small of a scale will provide hardly noticeble results since the dipoles will be generating a strong field because of their large number in a rather small area.
+The bigger the scale, the faster the program will be but less accurate. Too small of a scale will provide hardly noticeble results since the dipoles will be generating 
+a strong field because of their large number in a rather small area.
 
 
 
@@ -62,7 +63,8 @@ constantly influenced by the positive dipoles only. Same applies to the South Po
 constantly 0 for 2 symetric poles, but since we want an accurate reconstruction, they won't be the same. How do we know if that values are influenced 
 by positive dipoles, negative dipoles or a combination of the 2? Our answer was to run an analysis on the influencebility of the dipoles. 
 Basically, before we started the actual reconstruction, we extended each dipole in space by a small scale, until one of the dipoles exited the recorded measurements area.
-While doing that, we recorded the number of sign changes of those points over time and what dipole caused the sign change in a matrix we like to call the dipole changeability matrix.
+While doing that, we recorded the number of sign changes of those points over time and what dipole caused the sign change in a matrix we like to call 
+the dipole changeability matrix.
 
 The rest is simple: We extend each dipole once by a correct, small scale. If we have a dipole that after analysation, we know doesn't change any measurement's sign 
 but it is now about to, it means the current magnet's shape guess has reached its maximum accuracy for the current scale on the side of that dipole, 
@@ -75,7 +77,8 @@ to max number and then dipoles influencing the least amount of measurements to h
 we should try take to 0 against a more influenced one since it will be harder because we have less dipoles to do so. Don't forget we want to take all the measurements 
 as close to 0 as possible at the same time. As for the dipoles, if it influences less measurements it's very likely that the dipole will have a bigger impact 
 on each of them than a dipole influencing a very big number of measurements. After getting this order, we run the dipoles along their respective equations while
-trying to take as many measurements closer 0 as possible and we will stop when we realise we are not modifying any of the measurements anymore. Note that in this last step, only the moving dipoles with the same sign as the measurements trying to influence will be moved.
+trying to take as many measurements closer 0 as possible and we will stop when we realise we are not modifying any of the measurements anymore. 
+Note that in this last step, only the moving dipoles with the same sign as the measurements trying to influence will be moved.
 
 
 
